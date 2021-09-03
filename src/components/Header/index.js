@@ -5,7 +5,21 @@ import { AreaHeader } from './styled'
 function Header() { 
     return (
         <AreaHeader>
-            Topo so site 
+           <div className="container">
+                <div className="logo"> 
+                   <img src="../../../petshopLogo.img"/>
+                </div>   
+
+                <nav>
+                    <ul>
+                        <li>Login</li>    
+                        <li>Agendamento</li> 
+                        <li>Cadastro</li> 
+                        <li>Produtos</li> 
+                    </ul>    
+                </nav>    
+               
+            </div> 
         </AreaHeader>  
     )
 }
