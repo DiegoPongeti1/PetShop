@@ -27,6 +27,15 @@ export const AreaHeader = styled.div`
                                 li{
                                         list-style: none;
                                         margin-left: 30px;
+
+                                        a{
+                                                text-decoration: none;
+                                                color: #000000;
+
+                                                &:hover{
+                                                        color: #F5BB00;
+                                                }
+                                        }
                                         
                                 }
                 }

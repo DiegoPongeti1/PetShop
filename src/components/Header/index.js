@@ -1,5 +1,5 @@
 import React from 'react' 
-
+import { Link } from 'react-router-dom'
 import { AreaHeader } from './styled'
 
 function Header() { 
@@ -12,10 +12,11 @@ function Header() {
 
                 <nav>
                     <ul>
-                        <li>Login</li>    
-                        <li>Agendamento</li> 
-                        <li>Cadastro</li> 
-                        <li>Produtos</li> 
+                        <li><Link to="/">Inicio</Link></li>   
+                        <li><Link to="/login">Login</Link></li>    
+                        <li><Link to="Agendamento">Agendamento</Link></li> 
+                        <li><Link to="Cadastro">Cadastro</Link></li> 
+                        <li><Link to="Produtos">Produtos</Link></li> 
                     </ul>    
                 </nav>    
                
