@@ -4,7 +4,6 @@ export const AreaHeader = styled.div`
         height: 100px;
         background-color: #0963EB;
         color: #fff;
-
         .container{
                 padding:5px 20px;
                 display: flex;
@@ -31,7 +30,8 @@ export const AreaHeader = styled.div`
                                         a{
                                                 text-decoration: none;
                                                 color: #000000;
-
+                                                display: flex;
+                                                align-items: center;
                                                 &:hover{
                                                         color: #F5BB00;
                                                 }

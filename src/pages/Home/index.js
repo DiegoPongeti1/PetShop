@@ -2,10 +2,11 @@ import React from 'react'
 
 import { ContainerPage, TittlePage } from "../../components/Main";
 
+
 const Page = () => {
     return (
       <ContainerPage>
-          <TittlePage> Produtos em Destaques </TittlePage>
+          <TittlePage>  Produtos em Destaques </TittlePage>
       </ContainerPage>
     );
 }

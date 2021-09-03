@@ -6,4 +6,5 @@ export const ContainerPage = styled.div `
 
 export const TittlePage = styled.h1`
         font-size: 20px;
+        text-align: center;
 `;
