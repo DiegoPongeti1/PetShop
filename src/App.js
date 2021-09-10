@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 
 import Login from './pages/Login'
 
+import Cadastro from './pages/Cadastro'
+
 import Routes from './Routes'
 
 import './App.css'
@@ -14,13 +16,17 @@ import './App.css'
 function App() {
 
   const [user, setUser] = useState('/Login')
+  const [Cadastro, setCadastro] = useState('/Cadastro')
   
 
   if(user === null ){
     return (
-      <Login /> 
+      <Login />,
+      <Cadastro />
     );
   }
+
+  
   return (
     <BrowserRouter>
     <Header />
