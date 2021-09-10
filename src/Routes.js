@@ -16,15 +16,15 @@ export default () => {
                 <Login />
             </Route>
 
-            <Route exact path="/cadastro">
+            <Route exact path="/Cadastro">
                 Pagina de Cadastro
             </Route>
 
-            <Route exact path="/agendamento">
+            <Route exact path="/Agendamento">
                 Pagina de Agendamento
             </Route>
 
-            <Route exact path="/produtos">
+            <Route exact path="/Produtos">
                 Pagina de Produtos
             </Route>
         </Switch>

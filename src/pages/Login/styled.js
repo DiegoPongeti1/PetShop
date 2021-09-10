@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const AreaLogin = styled.div`
         background-color: #fff;
-        padding: 30px;
+        padding: 100px;
         max-width: 300px;
         margin: auto;
         margin-top: 20px;

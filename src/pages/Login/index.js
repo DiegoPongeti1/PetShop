@@ -19,7 +19,7 @@ export default () => {
           <Route exact path="/Cadastro"> 
                 <AreaLogin>
                     <h1 className="organize">
-                      <Link to="/Produtos"><ArrowBackIosIcon /></Link>
+                      <Link to="/Login"><ArrowBackIosIcon /></Link>
                       Crie sua conta                    
                     </h1> 
 
@@ -46,14 +46,14 @@ export default () => {
               <BtnDeFaut>Concluir Cadastro</BtnDeFaut>
 
               <div className="footerLogin">
-                    Já tem uma conta ? 
-                    <Link to="/"> Realizar Login </Link> 
+                    Já possui uma conta ? 
+                    <Link to="/Login"> Realizar Login </Link> 
               </div>
             </form>
                 </AreaLogin>
           </Route>
 
-          <Route exact path="*"> 
+          <Route exact path="/Login"> 
           <AreaLogin>
           <h1> Faça o Login em sua conta </h1>
 
