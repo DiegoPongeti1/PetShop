@@ -13,6 +13,7 @@ export const AreaLogin = styled.div`
 
         h1{
             font-size: 20px;
+            height: 50px;
         }
 
         .organize{

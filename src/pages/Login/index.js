@@ -9,7 +9,7 @@ import {BtnDefaulIcons, BtnDeFaut} from '../../components/Styled'
 
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GTranslateIcon from '@material-ui/icons/GTranslate';
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+
 
       export default () => {
       return (
@@ -48,7 +48,7 @@ import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
                   <div className="footerLogin">
                         Não possui uma conta ? 
-                        <Link exact to="/Cadastro"> Cadastrar-se </Link> 
+                        <Link  to="/Cadastro"> Cadastrar-se </Link> 
                   </div>
                   </form>
             </AreaLogin>
