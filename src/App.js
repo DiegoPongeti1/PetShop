@@ -8,6 +8,10 @@ import Login from './pages/Login'
 
 import Cadastro from './pages/Cadastro'
 
+import Agendamento from './pages/Agendamento'
+
+import Produtos from './pages/Produtos'
+
 import Routes from './Routes'
 
 import './App.css'
@@ -22,7 +26,9 @@ function App() {
   if(user === null ){
     return (
       <Login />,
-      <Cadastro />
+      <Cadastro />,
+      <Agendamento />,
+      <Produtos />
     );
   }
 

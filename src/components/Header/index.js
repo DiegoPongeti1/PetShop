@@ -14,8 +14,13 @@ function Header() {
                 <div className="logo"> 
                    <img src="../../../petshopLogo.img"/>
                 </div>   
-
+                {/* Talvez futura barra de pesquisa */}
+                {/* <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    
+                </div> */}
                 <nav>
+                
                     <ul>
                         <li><Link to="/"> <HomeIcon />Inicio</Link></li>   
                         <li><Link to="/Login"> <PersonIcon /> Login</Link></li>    

@@ -4,6 +4,8 @@ import { Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Cadastro from './pages/Cadastro'
+import Agendamento from './pages/Agendamento'
+import Produtos from './pages/Produtos'
 
 
 export default () => {
@@ -23,11 +25,11 @@ export default () => {
             </Route>
 
             <Route exact path="/Agendamento">
-                Pagina de Agendamento
+                <Agendamento />
             </Route>
 
             <Route exact path="/Produtos">
-                Pagina de Produtos
+                <Produtos />
             </Route>
         </Switch>
     )

@@ -38,5 +38,24 @@ export const AreaHeader = styled.div`
                                         }
                                         
                                 }
+                                /* #divBusca{
+                                         background-color:#2F4F4F;
+                                         border:solid 1px;
+                                        border-radius:15px;
+                                         width:300px;
+                                } */
+                               
+
                 }
+                /* #txtBusca{
+                                        float:left;
+                                        margin-left: 100px;
+                                        background-color:transparent;
+                                        padding-right:5px;
+                                        font-style:italic;
+                                        font-size:18px;
+                                        border:none;
+                                        height:32px;
+                                        width:260px;
+                                } */
 `;
