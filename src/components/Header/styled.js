@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AreaHeader = styled.div`
         height: 100px;
-        background-color: #0963EB;
+        background-color: #7776c2;
         color: #fff;
         .container{
                 padding:5px 20px;

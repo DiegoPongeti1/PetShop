@@ -1,14 +1,30 @@
 import React from 'react'
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
-import { ContainerPage, TittlePage } from "../../components/Main";
+
+import  { AreaHome } from './styled';
 
 
-const Page = () => {
+
+export default () => {
     return (
-      <ContainerPage>
-          <TittlePage>  Produtos em Destaques </TittlePage>
-      </ContainerPage>
+<BrowserRouter> 
+<Switch>
+<Route exact path="/"> 
+     
+     <AreaHome > 
+          <h1> Bem Vindo! </h1>
+          <h2> Produtos em destaques </h2>
+          <div className="sobre"> 
+              <p> O Banho e Tosa de " " está localizado em Restinga-SP 
+                  
+              </p>   
+          </div> 
+    </AreaHome>
+    
+</Route>
+</Switch>
+</BrowserRouter> 
+       
     );
 }
-
-export default Page;

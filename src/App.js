@@ -12,6 +12,8 @@ import Agendamento from './pages/Agendamento'
 
 import Produtos from './pages/Produtos'
 
+import Home from './pages/Home'
+
 import Routes from './Routes'
 
 import './App.css'
@@ -25,6 +27,7 @@ function App() {
 
   if(user === null ){
     return (
+      <Home />,
       <Login />,
       <Cadastro />,
       <Agendamento />,
