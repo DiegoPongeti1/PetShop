@@ -15,11 +15,11 @@ export default () => {
      <AreaHome > 
           <h1> Bem Vindo! </h1>
           <h2> Produtos em destaques </h2>
-          <div className="sobre"> 
-              <p> O Banho e Tosa de " " está localizado em Restinga-SP 
-                  
-              </p>   
-          </div> 
+          <div className="divProdutos">
+          
+          </div>
+
+          
     </AreaHome>
     
 </Route>

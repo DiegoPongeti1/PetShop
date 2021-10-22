@@ -16,26 +16,36 @@ export default () => {
 <Route exact path="/Cadastro"> 
       <AreaCadastro>
           <h1 className="organize">
-            <Link to="/Login"><ArrowBackIosIcon /></Link>
-            Crie sua conta                    
+            <Link exact to="/Login"><ArrowBackIosIcon /></Link>
+              Crie sua conta                    
           </h1> 
 
           <p> Crie sua conta gratuitamente!</p>
 
-                  <form>
+                  <form className="form">
                         <div className="form-imput"> 
-                              <label>Nome</label>
+                              <label>Nome:</label>
                               <input type="text" />
                         </div>
 
                         <div className="form-imput"> 
-                              <label>E-mail</label>
+                              <label>Sobre nome:</label>
+                              <input type="text" />
+                        </div>
+
+                        <div className="form-imput"> 
+                              <label>E-mail:</label>
                               <input type="email" />
                         </div>
 
                         <div className="form-imput"> 
-                              <label>Senha</label>
+                              <label>Senha:</label>
                               <input type="password" />
+                        </div>
+
+                        <div className="form-imput"> 
+                              <label>Endereço:</label>
+                              <input type="text" />
                         </div>
 
                         <BtnDeFaut>Concluir Cadastro</BtnDeFaut>

@@ -8,7 +8,7 @@ export default () => {
 <Switch>
 <Route exact path="/Agendamento"> 
       <AreaAgendamento>
-          <h1> Area de Agendamento </h1> 
+          <h1> Área de Agendamento </h1> 
       </AreaAgendamento>     
 </Route>
 </Switch>

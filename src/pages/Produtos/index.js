@@ -8,7 +8,7 @@ export default () => {
 <Switch>
 <Route exact path="/Produtos"> 
       <AreaProdutos>
-          <h1> Area de Produtos </h1> 
+          <h1> Área de Produtos </h1> 
       </AreaProdutos>     
 </Route>
 </Switch>
