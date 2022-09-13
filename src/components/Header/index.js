@@ -26,7 +26,7 @@ function Header() {
                         <li><Link to="/Login"> <PersonIcon /> Login</Link></li>    
                         <li><Link to="/Cadastro"><PermIdentityIcon /> Cadastro</Link></li> 
                         <li><Link to="/Agendamento"> <TodayIcon />Agendamento</Link></li> 
-                        <li><Link to="/Produtos"><LocalGroceryStoreIcon /> Produtos</Link></li> 
+                        {/* <li><Link to="/Produtos"><LocalGroceryStoreIcon /> Produtos</Link></li>  */}
                     </ul>    
                 </nav>    
                

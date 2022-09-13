@@ -20,7 +20,7 @@ import GTranslateIcon from '@material-ui/icons/GTranslate';
             <Route exact path="/Login"> 
             <AreaLogin>
             <h1> Faça o Login em sua conta </h1>
-
+{/* 
                   <BtnDefaulIcons>
                   <FacebookIcon />
                   <div className="center">Fazer login com o Facebook</div> 
@@ -31,7 +31,7 @@ import GTranslateIcon from '@material-ui/icons/GTranslate';
                   <div className="center">Fazer login com o Google</div> 
                   </BtnDefaulIcons>
 
-                  <p>OU</p>
+                  <p>OU</p> */}
 
                   <form>
                   <div className="form-imput"> 
