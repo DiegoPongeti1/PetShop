@@ -14,7 +14,6 @@ export default () => {
      
      <AreaHome > 
           <h1> Bem Vindo! </h1>
-          <h2> Produtos em destaques </h2>
           <div className="divProdutos">
           
           </div>
